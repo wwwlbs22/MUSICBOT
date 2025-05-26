@@ -41,15 +41,15 @@ PRIVACY_LINK = getenv("PRIVACY_LINK", "https://graph.org/PRIVACY-FOR-TEAM-PURVI-
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
-API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
+API_URL = getenv("API_URL", '') #youtube song url
 API_KEY = getenv("API_KEY", '') # youtube song api key
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/pocof3gtrk/ods",
+    "https://github.com/villainmusic77/VILLAIN_MUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
-    "GIT_TOKEN", "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")
+    "GIT_TOKEN", "")
 # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/iamvillain77")

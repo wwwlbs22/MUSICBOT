@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from VILLAIN_MUSIC import app
-from VILLAIN_MUSIC.core.call import RAUSHAN
+from VILLAIN_MUSIC.core.call import VILLAIN
 from VILLAIN_MUSIC.utils.database import is_music_playing, music_on
 from VILLAIN_MUSIC.utils.decorators import AdminRightsCheck
 from VILLAIN_MUSIC.utils.inline import close_markup

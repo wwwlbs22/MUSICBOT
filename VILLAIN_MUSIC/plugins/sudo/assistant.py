@@ -11,7 +11,7 @@ ASSISTANT_PREFIX = "."
 
 @app.on_message(filters.command("setpfp", prefixes=ASSISTANT_PREFIX) & SUDOERS)
 async def set_pfp(client, message):
-    from SONALI.core.userbot import assistants
+    from VILLAIN_MUSIC.core.userbot import assistants
 
     if not message.reply_to_message or not message.reply_to_message.photo:
         return await eor(message, text="Reply to a photo.")
@@ -28,7 +28,7 @@ async def set_pfp(client, message):
 
 @app.on_message(filters.command("setbio", prefixes=ASSISTANT_PREFIX) & SUDOERS)
 async def set_bio(client, message):
-    from SONALI.core.userbot import assistants
+    from VILLAIN_MUSIC.core.userbot import assistants
 
     if len(message.command) == 1:
         return await eor(message, text="Give some text to set as bio.")
@@ -47,7 +47,7 @@ async def set_bio(client, message):
 
 @app.on_message(filters.command("setname", prefixes=ASSISTANT_PREFIX) & SUDOERS)
 async def set_name(client, message):
-    from SONALI.core.userbot import assistants
+    from VILLAIN_MUSIC.core.userbot import assistants
 
     if len(message.command) == 1:
         return await eor(message, text="Give some text to set as name.")
@@ -66,7 +66,7 @@ async def set_name(client, message):
 
 @app.on_message(filters.command("delpfp", prefixes=ASSISTANT_PREFIX) & SUDOERS)
 async def del_pfp(client, message):
-    from SONALI.core.userbot import assistants
+    from VILLAIN_MUSIC.core.userbot import assistants
 
     for num in assistants:
         client = await get_client(num)
@@ -83,7 +83,7 @@ async def del_pfp(client, message):
 
 @app.on_message(filters.command("delallpfp", prefixes=ASSISTANT_PREFIX) & SUDOERS)
 async def delall_pfp(client, message):
-    from SONALI.core.userbot import assistants
+    from VILLAIN_MUSIC.core.userbot import assistants
 
     for num in assistants:
         client = await get_client(num)

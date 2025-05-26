@@ -50,6 +50,8 @@ UPSTREAM_REPO = getenv(
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
 
+GIT_TOKEN = os.getenv("GIT_TOKEN", "")  # bhai ye change kiya he githuv token lagana padta he 
+
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/iamvillain77")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/oldskoolgc")
 

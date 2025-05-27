@@ -1,7 +1,7 @@
 from pyrogram import  filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from VILLAIN_MUSIC.purvi_font import Fonts
+from VILLAIN_MUSIC.utils.purvi_font import Fonts
 from VILLAIN_MUSIC import app
 
 @app.on_message(filters.command(["font", "fonts"]))

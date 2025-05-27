@@ -41,16 +41,13 @@ PRIVACY_LINK = getenv("PRIVACY_LINK", "https://graph.org/PRIVACY-FOR-TEAM-PURVI-
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
-API_URL = getenv("API_URL", '') #youtube song url
-API_KEY = getenv("API_KEY", '') # youtube song api key
+
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/villainmusic77/VILLAIN_MUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
-
-GIT_TOKEN = getenv("GIT_TOKEN", "")  # bhai ye change kiya he githuv token lagana padta he 
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/iamvillain77")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/oldskoolgc")

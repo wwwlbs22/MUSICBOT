@@ -19,7 +19,7 @@ async def ping_com(client, message: Message, _):
         caption=_["ping_1"].format(app.mention),
     )
     start = datetime.now()
-    pytgping = await RAUSHAN.ping()
+    pytgping = await VILLAIN.ping()
     UP, CPU, RAM, DISK = await bot_sys_stats()
     resp = (datetime.now() - start).microseconds / 1000
     await response.edit(
